@@ -1,10 +1,15 @@
 [package]
-name = "rbase"
+name = "echo"
 version = "0.2.2"
 authors = ["LSH <github@lsh.tech>"]
 edition = "2021"
-description = "Github template to setup the CI and cargo publish"
+description = "Cursor Multi-Agent Rules System CLI"
 license = "GPL-3.0"
 
 
 [dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dirs = "5.0"
