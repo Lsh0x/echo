@@ -1,9 +1,9 @@
 [package]
-name = "echo"
+name = "rbase"
 version = "0.2.2"
 authors = ["LSH <github@lsh.tech>"]
 edition = "2021"
-description = "Echo project"
+description = "Github template to setup the CI and cargo publish"
 license = "GPL-3.0"
 
 
